@@ -6,4 +6,14 @@
       <class name="com.gurhanpro.amazonTest.AmazanTest.AmazonTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.gurhanpro.amazonTest.AmazanTest.AmazonTest">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.gurhanpro.amazonTest.AmazanTest.AmazonTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
